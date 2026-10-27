@@ -1,0 +1,7 @@
+{
+  "strategy_and_benchmark_same_months": true,
+  "strictly_positive_month_count": 83,
+  "out_of_sample_months": 121,
+  "costs_nonnegative": true,
+  "average_gross_minus_net_matches_cost": true
+}

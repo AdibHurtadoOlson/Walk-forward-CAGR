@@ -1,0 +1,33 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "daily_start": "2010-09-09",
+  "daily_end": "2026-10-27",
+  "benchmark": {
+    "months": 121,
+    "cagr": 0.15203709631692508,
+    "annualized_volatility": 0.15266210685460987,
+    "sharpe": 1.0084808126168616,
+    "sortino": 1.6384115013746006,
+    "max_drawdown": -0.239271847587894,
+    "calmar": 0.6354157325636726,
+    "hit_rate": 0.7024793388429752,
+    "best_month": 0.12698326292857676,
+    "worst_month": -0.12487097782466938
+  },
+  "lookahead_control": "Walk-forward parameter selection uses only returns from signal dates before each current signal date.",
+  "strategy": {
+    "months": 121,
+    "cagr": 0.36768041478911395,
+    "annualized_volatility": 0.2535077516065162,
+    "sharpe": 1.3745742237294343,
+    "sortino": 2.6638061604066174,
+    "max_drawdown": -0.3478118971649834,
+    "calmar": 1.0571243185931216,
+    "hit_rate": 0.6859504132231405,
+    "best_month": 0.29016847428534126,
+    "worst_month": -0.19609445205730264
+  },
+  "average_monthly_turnover": 0.16749311294765842,
+  "average_monthly_transaction_cost": 0.00016749311294765842,
+  "mean_excess_monthly_return": 0.016209034608115177
+}
